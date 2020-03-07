@@ -16,7 +16,7 @@ Lazy bot for manipulate AWS instance
 - Setup slack bot token
     - depend on your OS then set a token inside script file and execute
 
-## First Run On Slack Bot
+## Hello World Slack Bot
 
 Let's start with [simple.py](https://github.com/howtoautomateinth/lazy-aws-slackbot/blob/master/simple.py) which is a hello world message
 
@@ -28,8 +28,16 @@ Let's start with [simple.py](https://github.com/howtoautomateinth/lazy-aws-slack
 
 *Expected* you should have `Hello World!` message in channel
 
+## Real Time Messaging (RTM)
+
+is a WebSocket-based API that allows you to receive events from Slack in real time and send messages as users
+
+
+
 ## References Document
 
-- [Python Slack Client](https://github.com/slackapi/python-slackclient)
 - [Python slack BOT Tutorial](https://github.com/slackapi/python-slackclient/tree/master/tutorial)
 - [API Methods](https://api.slack.com/methods)
+- [API Events Methods](https://api.slack.com/events)
+- [Python Slack Client](https://github.com/slackapi/python-slackclient)
+- [Python Slack Events API](https://github.com/slackapi/python-slack-events-api)
