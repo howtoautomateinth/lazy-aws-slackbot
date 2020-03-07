@@ -32,7 +32,14 @@ Let's start with [simple.py](https://github.com/howtoautomateinth/lazy-aws-slack
 
 is a WebSocket-based API that allows you to receive events from Slack in real time and send messages as users
 
+### Steps
 
+- On VSCode to run with `Simple RTM` debugger mode
+- Use ngrok to make a web server tunnel on `ngrok http 3000`
+- Grab `ngrok_url + /slack/events` and register on *Event Subscriptions* page in api slack
+    - subscribe bot events with `message.channels`
+- Add `@lazyawsbot` into #General
+- Type `Hello World` and wait for response
 
 ## References Document
 
