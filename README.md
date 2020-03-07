@@ -33,3 +33,4 @@ Let's start with [simple.py](https://github.com/howtoautomateinth/lazy-aws-slack
 - [Python Slack Client](https://github.com/slackapi/python-slackclient)
 - [Python slack BOT Tutorial](https://github.com/slackapi/python-slackclient/tree/master/tutorial)
 - [API Methods](https://api.slack.com/methods)
+- [Events API](https://github.com/slackapi/python-slack-events-api)
