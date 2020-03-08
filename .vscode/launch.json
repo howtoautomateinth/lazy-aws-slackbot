@@ -5,6 +5,17 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "env": {
+                "SLACK_SIGNING_SECRET": "",
+                "SLACK_BOT_TOKEN": ""
+            }
+        },
+        {
             "name": "Simple RTM",
             "type": "python",
             "request": "launch",
@@ -13,8 +24,8 @@
                 "FLASK_APP": "simple_RTM.py",
                 "FLASK_ENV": "development",
                 "FLASK_DEBUG": "0",
-                "SLACK_SIGNING_SECRET" : "",
-                "SLACK_BOT_TOKEN" : ""
+                "SLACK_SIGNING_SECRET": "",
+                "SLACK_BOT_TOKEN": ""
             },
             "args": [
                 "run",
