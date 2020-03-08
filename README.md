@@ -16,11 +16,13 @@ Lazy bot for manipulate AWS instance
 - Setup slack bot token
     - depend on your OS then set a token inside script file and execute
 
-## Hello World Slack Bot
+## Example
+
+### Hello World Slack Bot
 
 Let's start with [simple.py](https://github.com/howtoautomateinth/lazy-aws-slackbot/blob/master/simple.py) which is a hello world message
 
-### Steps
+#### Steps
 
 - Add permission for bot to join channel `channels:join` and `chat:write`
 - Invite chat bot to `general` channel via mention `@lazyawsbot`
@@ -28,11 +30,11 @@ Let's start with [simple.py](https://github.com/howtoautomateinth/lazy-aws-slack
 
 *Expected* you should have `Hello World!` message in channel
 
-## Real Time Messaging (RTM)
+### Real Time Messaging (RTM)
 
 is a WebSocket-based API that allows you to receive events from Slack in real time and send messages as users
 
-### Steps
+#### Steps
 
 - On VSCode to run with `Simple RTM` debugger mode
 - Use ngrok to make a web server tunnel on `ngrok http 3000`
@@ -40,6 +42,15 @@ is a WebSocket-based API that allows you to receive events from Slack in real ti
     - subscribe bot events with `message.channels`
 - Add `@lazyawsbot` into #General
 - Type `Hello World` and wait for response
+
+## Complex Bot
+- Tracking conversations
+    - in complex bot we need to interact with bot in multiple conversation
+    - create a db for keep database identities and manage business logic 
+        - and removed from the db/memory list if it not continue conversation
+- Threaded messages
+    - bot will still receive message events for these threaded 
+    - bot need to reply to correct in the relevant location
 
 ## References Document
 
