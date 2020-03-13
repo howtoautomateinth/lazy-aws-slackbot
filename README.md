@@ -1,6 +1,6 @@
-# Lazy AWS BOT
+# AWS Lazy bot & simple AWS slack bot example 
 
-Lazy bot for manipulate AWS instance
+simple slackbot tutorial and AWS Lazy bot for manipulate AWS instance 
 
 *some tutorials on google.com would be different with this tutorial since it different client*
 
