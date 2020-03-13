@@ -43,7 +43,24 @@ is a WebSocket-based API that allows you to receive events from Slack in real ti
 - Add `@lazyawsbot` into #General
 - Type `Hello World` and wait for response
 
-## Complex Bot
+### AWS Lazy Bot
+
+A bot that have abilities to queries EC2 instance name on AWS
+
+#### Prerequisite
+
+- AWS Cli
+    - `pip install awscli`
+- AWS User
+    - Add permission for Administrator API Gateway and Lambda
+    - setup AWS cli with `aws configuration`
+    
+#### Steps
+
+- Run AWS scripts to generate API gateway
+
+
+## Complex Bot Information
 - Tracking conversations
     - in complex bot we need to interact with bot in multiple conversation
     - create a db for keep database identities and manage business logic 
@@ -51,7 +68,7 @@ is a WebSocket-based API that allows you to receive events from Slack in real ti
 - Threaded messages
     - bot will still receive message events for these threaded 
     - bot need to reply to correct in the relevant location
-
+ 
 ## References Document
 
 - [Python slack BOT Tutorial](https://github.com/slackapi/python-slackclient/tree/master/tutorial)
