@@ -5,6 +5,27 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "AWS Slack BOT",
+            "type": "python",
+            "request": "launch",
+            "module": "flask",
+            "env": {
+                "FLASK_APP": "aws/aws_lazy_bot.py",
+                "FLASK_ENV": "development",
+                "FLASK_DEBUG": "0",
+                "SLACK_SIGNING_SECRET": "",
+                "SLACK_BOT_TOKEN": ""
+            },
+            "args": [
+                "run",
+                "--no-debugger",
+                "--no-reload",
+                "--port",
+                "3000"
+            ],
+            "jinja": true
+        },
+        {
             "name": "Simple Track Converation",
             "type": "python",
             "request": "launch",

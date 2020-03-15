@@ -40,7 +40,4 @@ def lambda_handler(event, context):
     ids = list_instances_by_tag_value('Purpose','slack')
     data_response = buildResponse(ids)
     print(data_response)
-    return {
-        'statusCode': 200,
-        'body': json.dumps(data_response)
-    }
+    return json.dumps(data_response)
