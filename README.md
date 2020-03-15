@@ -1,22 +1,20 @@
-# AWS Lazy bot & simple AWS slack bot example 
+# Simple Slack BOT example 
 
-simple slackbot tutorial and AWS Lazy bot for manipulate AWS instance 
+simple Slack BOT tutorial 
 
 *some tutorials on google.com would be different with this tutorial since it different client*
 
 ## Prerequisite
 
 - Set up python environment
-    - python -m venv slack-env
-    - pip install -r requirements.txt
+    - `python -m venv slack-env`
+    - `pip install -r requirements.txt`
 - Sign up [ngrok](https://ngrok.com/) to setup local machine as server
     - because we need local server that subscriptions to slack event
 - Create a slack bot on [website](https://api.slack.com/apps) to get token
 - Install an `@lazyawsbot` to workspace
 - Setup slack bot token
     - depend on your OS then set a token inside script file and execute
-- aws configure
-    - for setup credential when using aws
 
 ## Example
 
