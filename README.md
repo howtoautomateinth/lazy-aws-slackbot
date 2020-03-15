@@ -15,6 +15,8 @@ simple slackbot tutorial and AWS Lazy bot for manipulate AWS instance
 - Install an `@lazyawsbot` to workspace
 - Setup slack bot token
     - depend on your OS then set a token inside script file and execute
+- aws configure
+    - for setup credential when using aws
 
 ## Example
 
